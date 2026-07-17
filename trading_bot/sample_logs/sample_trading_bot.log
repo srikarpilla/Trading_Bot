@@ -1,0 +1,8 @@
+2026-07-17 04:34:23 | INFO     | Placing MARKET BUY order for BTCUSDT qty=0.01
+2026-07-17 04:34:23 | DEBUG    | REQUEST POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.01', 'timestamp': 1784262863685, 'recvWindow': 5000}
+2026-07-17 04:34:23 | DEBUG    | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status=200 body={'orderId': 5028953, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'sample1', 'side': 'BUY', 'type': 'MARKET', 'origQty': '0.010', 'executedQty': '0.010', 'avgPrice': '65123.40', 'cumQuote': '651.2340'}
+2026-07-17 04:34:23 | INFO     | Order placed successfully: orderId=5028953 status=FILLED
+2026-07-17 04:34:23 | INFO     | Placing LIMIT SELL order for ETHUSDT qty=1
+2026-07-17 04:34:23 | DEBUG    | REQUEST POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '1', 'price': '3200.50', 'timeInForce': 'GTC', 'timestamp': 1784262863687, 'recvWindow': 5000}
+2026-07-17 04:34:23 | DEBUG    | RESPONSE POST https://testnet.binancefuture.com/fapi/v1/order | status=200 body={'orderId': 5028961, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'sample2', 'side': 'SELL', 'type': 'LIMIT', 'origQty': '1.000', 'executedQty': '0.000', 'price': '3200.50', 'timeInForce': 'GTC'}
+2026-07-17 04:34:23 | INFO     | Order placed successfully: orderId=5028961 status=NEW
